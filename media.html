@@ -1,54 +1,102 @@
 <!DOCTYPE html>
-<!--Harish Pangattil C0920016-->
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProPortion Scales</title>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-    <header>
-        <img class="banner" src="images/banner_index.png" alt="Company Banner">
-        <nav>
-			<span class="logo">
-                <a href="index.html"><img src="images/logo.png"alt="Company Logo"></a>
-            </span>
-            <span class="nav_elements">
-                <span class="nav_item"><a href="index.html">Home</a>&nbsp; &nbsp;</span>
-                <span class="nav_item"><a href="about.html">About</a>&nbsp; &nbsp;</span>
-                <span class="nav_item"><a href="team.html">Our Team</a>&nbsp; &nbsp;</span>
-                <span class="nav_item"><a href="specials.html">Specials</a>&nbsp; &nbsp;</span>
-                <span class="nav_item"><a href="training.html">Training</a>&nbsp; &nbsp;</span>
-                <span class="nav_item"><a href="media.html"></a>&nbsp; &nbsp;</span>
-            </span>
-            <div class="dropdown">
-                <button class="dropbtn">More</button>
-                <div class="dropdown-content">
-                    <a href="media.html">Media</a>
-                    <!--
-                    <a href="training.html">Training</a>
-                    <a href="contact.html">Contact Us</a>
-                    -->
-                    <a href="faqs.html">FAQs</a>                    
+<html>
+    <Head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width", initial-scale = "1.0">
+        <title>ProPortion Scales</title>
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" crossorigin="anonymous">
+        <script src="scripts/scripts.js"></script>
+    
+    </Head>
+
+    <body>
+
+        <!---Navigation Section--->
+
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/Pro_portion_logo.png" width="150px">
+                </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li>
+                                <a href="Index.html">Home</a>
+                            </li>
+    
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+
+                            <li>
+                                <a href="team.html">Team</a>
+                            </li>
+
+                            <li>
+                                <a href="specials.html">Specials</a>
+                            </li>
+    
+                            <li>
+                                <a href="media.html">Media</a>
+                            </li>
+    
+                            <li>
+                                <a href="training.html">Training</a>
+                            </li>
+
+                            <li>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+
+                            <li>
+                                <a href="faq.html">FAQs</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1 style="color: rgb(31, 31, 31);">
+                        Measure Flavor<br>Cook with Confidence!
+                    </h1>
+
+                    <p style="color: white;">
+                        Scale to Taste<br>Your Culinary Experience with Our Precision Measuring Scales!"
+                    </p>
+
+                    <a href="./Products.html" class="btn">
+                        Explore Now &#8594;
+                    </a>
+                </div>
+
+                <div class="col-2">
+                    <img src="images/front image.png">
                 </div>
             </div>
-			</ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Welcome to ProPortion</h2>
-        <p>Elevate your culinary experience with our high-precision food scales. Discover the perfect tool for every kitchen. Explore now!</p>
-        <div class="product_container">
-       <h2>This is the Media Page</h2>
         </div>
-    </main>
-    
-    <footer>
-        <p>&copy; Copyright 2023. All Rights Reserved.<br>
-        <a href="mailto:proportioninfo@gmail.com">Request information</a><br>
-        Harish Pangattil &nbsp; &nbsp; c0920016</p>
-    </footer>
-</body>
-</html>
+        </div>
+       <!--media page-->
+       <h2 class="title" style="margin-top: 2%;">Latest In The Market</h2>
+       <video controls class="vid" style="padding-left: 8%;">
+        <source src="images/scales/product_video.mp4" type="video/mp4" style="width: 10%;">
+        <track src="images/scales/sub.srt" kind="captions" srclang="en" label="Captions">
+        <p>Your browser does not support the video element.</p>
+    </video>
 
+        <!-- Footer -->
+
+        <div class="footer">
+            <p>&copy; Copyright 2023. All Rights Reserved.<br>
+                <a style="text-decoration: none; color: #845a3f;" href="mailto:proportioninfo@gmail.com">Request information &#9993</a><br>
+                Harish Pangattil &nbsp; &nbsp; c0920016</p>
+        </div>
+    </body>
+    </html>
